@@ -24,7 +24,7 @@ function App() {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: "Bearer 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",
+            Authorization: "Bearer sk-or-v1-78107388097ecec4a08251445c65a651ad855e3a44520bc51e28028bacdbec",
             "HTTP-Referer": "http://localhost:3000",
             "X-Title": "Product Recommender Demo",
           },
