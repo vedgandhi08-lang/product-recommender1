@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+Product Recommendation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React based product recommendation system that uses an AI API (OpenRouter) to suggest products based on user preferences.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+Displays a static list of products
 
-### `npm start`
+User can enter preferences such as "phone under 500"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+AI analyzes the input and recommends matching products
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Simple and clean user interface
 
-### `npm test`
+Demonstrates AI API integration with frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+How It Works
 
-### `npm run build`
+Products are stored in a local array
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+User enters a preference in the input box
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The input is sent to an AI model using OpenRouter API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The AI responds with recommended product names
 
-### `npm run eject`
+The app filters and displays matching products
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+OpenRouter AI API (Mistral model)
 
-## Learn More
+How to Run Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository
+git clone <repository-url>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies
+npm install
 
-### Code Splitting
+Start the application
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open in browser
+http://localhost:3000
 
-### Analyzing the Bundle Size
+API Key Note
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The API key is not included in the repository for security reasons.
+It should be added locally when running the project.
 
-### Making a Progressive Web App
+Project Purpose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created as part of an internship assignment to demonstrate basic React development, AI API integration, and recommendation logic.
